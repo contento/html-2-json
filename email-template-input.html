@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body email-tag="email">
+    <div email-tag="email_subject"><b>Meeting Tomorrow</b></div>
+    <div email-tag="email_logo">
+        <img src="../images/{{email_logo}}" alt="Logo" style="width: 20%;">
+    </div>
+    <div email-tag="email_from">{{email_from}}</div>
+    <div email-tag="email_to">{{email_to}}</div>
+    <div email-tag="email_cc">{{email_cc}}</div>
+    <div email-tag="email_bcc">{{email_bcc}}</div>
+    <div email-tag="email_body">
+        Let's meet tomorrow at 10am.<br>
+        <i style="font-size: 14pt; color: blue;">
+            Please read the report {{email_report_name}}.</i><br>
+        and remember:
+        <ul>
+            <li>Drink H<sub>2</sub>O</li>
+            <li>2<sup>8</sup> = 256</li>
+        </ul>
+    </div>
+</body>
+
+</html>
